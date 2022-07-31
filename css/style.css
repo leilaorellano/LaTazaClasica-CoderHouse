@@ -21,7 +21,7 @@ reseteo css
  css del header
  */
 .encabezado p{
-    background-color:#669394;
+    background-color:#ef9273;
     color: white; 
     font-size: 0.9rem;
     text-align: center; /* alinea el texto al centro */
@@ -59,7 +59,7 @@ reseteo css
 }
 
 .enlaces a:hover{
-    background: #E6D149
+    background: #fef9f8;
 }
 
 /* titulo "nuestros productos" y "kits..." */
@@ -184,16 +184,14 @@ reseteo css
     grid-row: 1 / 4;
 }
 
-/* .wallpaper{
-    background-color: beige;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
+.wallpaper{
+    background: rgb(255,255,255);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,202,194,1) 100%);
+}
 
 /* css del footer de la pagina  */
 footer{
-    background-color: #669394;
+    background-color: #ef9273;
 }
 
 .titulo-contacto{
