@@ -13,9 +13,9 @@ reseteo css
     height: auto
   }
   
-/* *{
+*{
     border: 1px solid red;
-} */
+}
 
  /*
  css del header
@@ -39,7 +39,7 @@ reseteo css
 }
 
 .logo img{
-    width: 80%;
+    width: 75%;
 }
 
 .enlaces li{
@@ -49,7 +49,7 @@ reseteo css
 
 /* estilo de las palabras en el header */
 .enlaces a{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Montserrat' sans-serif;
     padding: 1rem;
     border: none;
@@ -120,7 +120,7 @@ reseteo css
 }
 
 /* css de la visitanos.html */
-.historia {
+/* .historia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -130,7 +130,8 @@ reseteo css
 
 .caja {
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
 }
 
 .a {
@@ -159,7 +160,8 @@ reseteo css
 
 .square {
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
   }
 
 .uno {
@@ -182,7 +184,7 @@ reseteo css
 .cinco {
     grid-column: 4 / 5;
     grid-row: 1 / 4;
-}
+} */
 
 .wallpaper{
     background: rgb(255,255,255);
