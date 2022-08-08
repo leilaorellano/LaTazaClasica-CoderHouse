@@ -4,14 +4,14 @@ reseteo css
 *{
     Margin:0;
     padding:0;
- }
+}
 
  /* bordes para las fotos */
- img{
+img{
     border-radius: 5%;
     max-width: 100%;
     height: auto
-  }
+}
   
 /* *{
     border: 1px solid red;
@@ -118,6 +118,7 @@ reseteo css
     list-style-type: none;
     justify-content:space-around;
     flex-wrap: wrap;
+    margin: 0%;
 }
 
 .valoraciones-clientes li{
@@ -130,9 +131,6 @@ reseteo css
     font-family: 'Montserrat' sans-serif;
 }
 
-.historia div{
-    padding: auto;
-}
 
 
 /* css de la visitanos.html */
@@ -255,6 +253,7 @@ footer{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    margin: 0%;
 }
 
 
@@ -264,13 +263,12 @@ footer{
 /* grid de los productos y kits */
 .productos-grid {
     display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     padding-bottom: 3rem;
 }
-
 
 /* fuente de los parrafos de cada imagen de prod o kits*/
 .box p{
@@ -357,6 +355,9 @@ footer{
     justify-items: center;
     align-items: center;
     padding-bottom: 3rem;
+}
+.productos-grid img{
+    width: 70%;
 }
 
 /* fuente de los parrafos de cada imagen de prod o kits*/
