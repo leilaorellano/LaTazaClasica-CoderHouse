@@ -29,8 +29,19 @@ reseteo css
     font-family: 'Montserrat';
 } 
 
+.navClass a{
+    font-size: 1.1rem;
+    font-family: 'Montserrat' sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5%;
+}
 
-.encabezado-estilo-lista{
+.navClass a:hover{
+    background: #f5cac2;
+}
+
+/* .encabezado-estilo-lista{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -48,7 +59,7 @@ reseteo css
 }
 
 /* estilo de las palabras en el header */
-.enlaces a{
+/*.enlaces a{
     font-size: 1.1rem;
     font-family: 'Montserrat' sans-serif;
     padding: 1rem;
@@ -60,7 +71,7 @@ reseteo css
 
 .enlaces a:hover{
     background: #fef9f8;
-}
+} */
 
 /* titulo "nuestros productos" y "kits..." */
 .titulos{
@@ -118,6 +129,11 @@ reseteo css
     font-size: 1.2rem;
     font-family: 'Montserrat' sans-serif;
 }
+
+.historia div{
+    padding: auto;
+}
+
 
 /* css de la visitanos.html */
 /* .historia {
