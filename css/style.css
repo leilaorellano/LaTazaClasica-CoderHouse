@@ -2,7 +2,7 @@
 reseteo css
 */
 *{
-    Margin:0;
+    margin:0;
     padding:0;
 }
 
@@ -17,9 +17,7 @@ img{
     border: 1px solid red;
 } */
 
- /*
- css del header
- */
+ /* css del header */
 .encabezado p{
     background-color:#ef9273;
     color: white; 
@@ -41,37 +39,9 @@ img{
     background: #f5cac2;
 }
 
-/* .encabezado-estilo-lista{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
+.logo{
+    width: 300px;
 }
-
-.logo img{
-    width: 75%;
-}
-
-.enlaces li{
-    list-style: none;
-    display: inline;
-}
-
-/* estilo de las palabras en el header */
-/*.enlaces a{
-    font-size: 1.1rem;
-    font-family: 'Montserrat' sans-serif;
-    padding: 1rem;
-    border: none;
-    cursor: pointer;
-    transition: .3s ease all;
-    border-radius: 5%;
-}
-
-.enlaces a:hover{
-    background: #fef9f8;
-} */
 
 /* titulo "nuestros productos" y "kits..." */
 .titulos{
@@ -132,74 +102,6 @@ img{
 }
 
 
-
-/* css de la visitanos.html */
-/* .historia {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 50px 20px ;
-    padding: 1.5rem;
-}
-
-.caja {
-    padding: 20px;
-    font-size: 1.1rem;
-    font-family: 'Montserrat';
-}
-
-.a {
-    grid-column: 1 / 3;
-    grid-row: 1;
-}
-.b {
-    grid-column: 3 ;
-    grid-row: 1 / 3;
-}
-.c {
-    grid-column: 1 ;
-    grid-row: 2 ;
-}
-.d {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-
-.instalaciones {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-.square {
-    padding: 20px;
-    font-size: 1.1rem;
-    font-family: 'Montserrat';
-  }
-
-.uno {
-    grid-column: 1 / 3;
-    grid-row: 1;
-}
-.dos {
-    grid-column: 3 ;
-    grid-row: 1 / 3;
-}
-.tres {
-    grid-column: 1 ;
-    grid-row: 2 ;
-}
-.cuatro {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.cinco {
-    grid-column: 4 / 5;
-    grid-row: 1 / 4;
-} */
-
 .wallpaper{
     background: rgb(255,255,255);
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,202,194,1) 100%);
@@ -257,6 +159,12 @@ footer{
 }
 
 
+@media screen and (max-width:991px){
+.logo{
+    width: 225px;
+}
+}
+
 /*------ tablet ------*/
 @media screen and (max-width: 768px){
  
@@ -273,72 +181,6 @@ footer{
 /* fuente de los parrafos de cada imagen de prod o kits*/
 .box p{
     font-size: 1.2rem;
-}
-
-/* css de la visitanos.html */
-.historia {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
-    gap: 50px 20px ;
-    padding: 1.5rem;
-}
-
-.caja {
-    padding: 20px;
-    font-size: 1.5rem;
-}
-
-.a {
-    grid-column: 1;
-    grid-row: 1;
-}
-.b {
-    grid-column: 1 ;
-    grid-row:2;
-}
-.c {
-    grid-column: 1 ;
-    grid-row: 4 ;
-}
-.d {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-
-.instalaciones {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr 1fr;
-    padding: auto;
-  }
-
-.square {
-    padding: 20px;
-    font-size: 1.5rem;
-  }
-
-.uno {
-    grid-column: 1;
-    grid-row: 1;
-}
-.dos {
-    grid-column: 1 ;
-    grid-row: 2;
-}
-.tres {
-    grid-column: 1 ;
-    grid-row: 3 ;
-}
-.cuatro {
-    grid-column: 1;
-    grid-row: 4;
-}
-
-.cinco {
-    grid-column: 1;
-    grid-row: 5;
 }
 
 } 
