@@ -201,11 +201,9 @@ footer{
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    padding-bottom: 3rem;
+    padding: 0 1rem 3rem 1rem;
 }
-.productos-grid img{
-    width: 70%;
-}
+
 
 /* fuente de los parrafos de cada imagen de prod o kits*/
 .box p{
