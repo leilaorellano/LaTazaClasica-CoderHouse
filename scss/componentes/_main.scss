@@ -1,0 +1,76 @@
+/* grid de los productos y kits */
+.productos-grid {
+    display: grid;
+    grid-template-columns:1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    @media screen and (max-width: 768px){
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+    @media screen and (max-width:360px){
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        padding: 0 1rem 3rem 1rem;
+    }
+}
+
+  
+/* fuente de los parrafos de cada imagen de prod o kits*/
+.box p{
+    font-size: 1.2rem;
+    font-family: $font_family;
+} 
+
+/* flex de los kits */
+.kits-flex{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    p{
+        font-size: 1.2rem;
+        font-family: $font_family;
+    }
+}
+
+/* valoraciones de los clientes*/
+.valoraciones-clientes{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0%;
+    li{
+        display: flex;
+        padding: 1.2rem;
+    }
+    p{
+        font-size: 1.2rem;
+        font-family: $font_family;
+    }
+    @media screen and (max-width:360px){
+        display: flex;
+        list-style-type: none;
+        li{
+            display: flex;
+            padding: 1.2rem;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import './base/variables';
+@import './componentes/main';
+@import './componentes/footer';
+@import './componentes/header';
+
+/*
+reseteo css
+*/
+*{
+    margin:0;
+    padding:0;
+}
+ /* bordes para las fotos */
+img{
+    border-radius: 5%;
+    max-width: 100%;
+    height: auto
+}
+
+/* titulo "nuestros productos" y "kits..." */
+.titulos{
+	font-size: 1.5rem;
+	text-align: center;
+    padding: 2rem;
+    color: $bg_azulOscuro;
+    font-family: $font_family;
+}
+.wallpaper{
+    /* background: rgb(255,255,255);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,202,194,1) 100%); */
+    background-color: $bg_claro;
+}
+
+.padbottom{
+    padding-bottom: 1rem;
+}
