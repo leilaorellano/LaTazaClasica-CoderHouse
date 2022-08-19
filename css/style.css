@@ -1,4 +1,10 @@
 /* paleta de colores */
+.kits-flex, .valoraciones-clientes, .lista-contacto {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap; }
+
+/* utilizado en titulos en style.scss*/
 /* grid de los productos y kits */
 .productos-grid {
   display: grid;
@@ -26,33 +32,24 @@
 
 /* fuente de los parrafos de cada imagen de prod o kits*/
 .box p {
-  font-size: 1.2rem;
-  font-family: "Montserrat" sans-serif; }
+  font-size: 1.2rem; }
 
 /* flex de los kits */
 .kits-flex {
-  display: flex;
-  list-style-type: none;
   justify-content: space-around;
-  flex-wrap: wrap;
   padding-bottom: 3rem; }
   .kits-flex p {
-    font-size: 1.2rem;
-    font-family: "Montserrat" sans-serif; }
+    font-size: 1.2rem; }
 
 /* valoraciones de los clientes*/
 .valoraciones-clientes {
-  display: flex;
-  list-style-type: none;
   justify-content: space-around;
-  flex-wrap: wrap;
   margin: 0%; }
   .valoraciones-clientes li {
     display: flex;
     padding: 1.2rem; }
   .valoraciones-clientes p {
-    font-size: 1.2rem;
-    font-family: "Montserrat" sans-serif; }
+    font-size: 1.2rem; }
   @media screen and (max-width: 360px) {
     .valoraciones-clientes {
       display: flex;
@@ -73,23 +70,17 @@ footer {
   text-align: center;
   font-size: 1.5rem;
   padding: 30px;
-  color: white;
-  font-family: "Montserrat" sans-serif; }
+  color: white; }
 
 .lista-contacto {
-  list-style-type: none;
-  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center; }
   .lista-contacto li {
     display: flex;
     font-size: 0.8rem;
-    font-family: "Montserrat" sans-serif;
     padding-bottom: 10px; }
   .lista-contacto p {
-    color: white;
-    font-family: "Montserrat" sans-serif; }
+    color: white; }
 
 .redes-sociales {
   display: flex;
@@ -142,13 +133,16 @@ img {
   max-width: 100%;
   height: auto; }
 
+/* font-family  */
+body {
+  font-family: 'Montserrat' sans-serif; }
+
 /* titulo "nuestros productos" y "kits..." */
 .titulos {
   font-size: 1.5rem;
   text-align: center;
   padding: 2rem;
-  color: #141850;
-  font-family: "Montserrat" sans-serif; }
+  color: #141850; }
 
 .wallpaper {
   /* background: rgb(255,255,255);
