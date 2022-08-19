@@ -1,6 +1,6 @@
 /* paleta de colores */
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-.kits-flex, .valoraciones-clientes, .lista-contacto {
+.kits-flex, .valoraciones-clientes {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap; }
@@ -42,25 +42,25 @@
   .kits-flex p {
     font-size: 1.2rem; }
 
+.listaval {
+  padding: 0%;
+  margin: 0%; }
+
 /* valoraciones de los clientes*/
 .valoraciones-clientes {
   justify-content: space-around;
-  margin: 0%; }
-  .valoraciones-clientes li {
-    display: flex;
-    padding: 1.2rem; }
+  margin: 0;
+  padding: 1.2rem; }
   .valoraciones-clientes p {
     font-size: 1.2rem; }
   @media screen and (max-width: 360px) {
     .valoraciones-clientes {
       display: flex;
-      list-style-type: none; }
-      .valoraciones-clientes li {
-        display: flex;
-        padding: 1.2rem;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column; }
+      list-style-type: none;
+      padding: 1.2rem;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
       .valoraciones-clientes p {
         font-size: 1rem; } }
 
@@ -85,8 +85,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  text-align: center; }
+  flex-direction: column; }
   .footer-content h3 {
     font-size: 1.8rem;
     font-weight: 400;
@@ -117,7 +116,6 @@ footer {
 
 .footer-bottom {
   background: #303179;
-  width: 100vw;
   padding: 20px 0;
   text-align: center; }
   .footer-bottom p {
@@ -128,22 +126,6 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200; }
-
-.titulo-contacto {
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 30px;
-  color: white; }
-
-.lista-contacto {
-  flex-direction: column;
-  align-items: center; }
-  .lista-contacto li {
-    display: flex;
-    font-size: 0.8rem;
-    padding-bottom: 10px; }
-  .lista-contacto p {
-    color: white; }
 
 .encabezado p {
   background-color: #ed7966;
