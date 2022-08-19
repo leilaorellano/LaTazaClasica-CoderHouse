@@ -1,6 +1,84 @@
-footer{
-    @include colores($bg_naranja);
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background: #fcfcfc;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    @include colores($bg_naranja);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    }
+    p{
+        max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    }
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    li{
+        margin: 0 10px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    i{
+        font-size: 1.1rem;
+        transition:color .4s ease;
+        &:hover{
+            color: $bg_azul;
+        }
+    }
+    
+}
+
+
+.footer-bottom{
+    background: $bg_azul;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    p{
+        font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    }
+    span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    };
+}
+
 
 .titulo-contacto{
     text-align: center;
@@ -21,22 +99,4 @@ footer{
     p{
         color: white;
     }
-}
-
-
-.redes-sociales{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    i{
-        font-size: 1rem;
-        padding: 0 20px 0 20px;
-    }
-}
-
-.copy{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 0%;
 }
