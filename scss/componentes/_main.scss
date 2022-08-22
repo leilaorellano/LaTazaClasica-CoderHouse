@@ -39,21 +39,19 @@
         font-size: 1.2rem;
     }
 }
-.listaval{
-    padding: 0%;
-    margin: 0%;
-}
+
 
 /* valoraciones de los clientes*/
 .valoraciones-clientes{
-    @extend %disposicion;
+    display: flex;
+    list-style-type: none;
     justify-content:space-around;
     margin: 0;
     padding: 1.2rem;
     p{
         font-size: 1.2rem;
     }
-    @media screen and (max-width:360px){
+    @media screen and (max-width:991px){
         display: flex;
         list-style-type: none;
         padding: 1.2rem;

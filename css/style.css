@@ -1,6 +1,6 @@
 /* paleta de colores */
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-.kits-flex, .valoraciones-clientes {
+.kits-flex {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap; }
@@ -42,18 +42,16 @@
   .kits-flex p {
     font-size: 1.2rem; }
 
-.listaval {
-  padding: 0%;
-  margin: 0%; }
-
 /* valoraciones de los clientes*/
 .valoraciones-clientes {
+  display: flex;
+  list-style-type: none;
   justify-content: space-around;
   margin: 0;
   padding: 1.2rem; }
   .valoraciones-clientes p {
     font-size: 1.2rem; }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 991px) {
     .valoraciones-clientes {
       display: flex;
       list-style-type: none;
