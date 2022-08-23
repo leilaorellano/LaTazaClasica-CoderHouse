@@ -14,6 +14,10 @@
   justify-items: center;
   align-items: center;
   padding-bottom: 3rem; }
+  .productos-grid p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 8px; }
   @media screen and (max-width: 768px) {
     .productos-grid {
       display: grid;
@@ -31,26 +35,26 @@
       align-items: center;
       padding: 0 1rem 3rem 1rem; } }
 
-/* fuente de los parrafos de cada imagen de prod o kits*/
-.box p {
-  font-size: 1.2rem; }
-
 /* flex de los kits */
 .kits-flex {
   justify-content: space-around;
   padding: 0rem 1rem 0rem 3rem; }
   .kits-flex p {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 8px; }
 
 /* valoraciones de los clientes*/
 .valoraciones-clientes {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  margin: 0;
   padding: 1.2rem; }
   .valoraciones-clientes p {
+    margin-left: 8px;
     font-size: 1.2rem; }
+  .valoraciones-clientes img {
+    max-width: 150px; }
   @media screen and (max-width: 991px) {
     .valoraciones-clientes {
       display: flex;
@@ -60,7 +64,8 @@
       align-items: center;
       flex-direction: column; }
       .valoraciones-clientes p {
-        font-size: 1rem; } }
+        margin-left: 8px;
+        font-size: 1.2rem; } }
 
 * {
   margin: 0;
@@ -93,7 +98,10 @@ footer {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px; }
+    font-size: 18px; }
+  .footer-content a {
+    font-size: 18px;
+    color: #141850; }
 
 .socials {
   list-style: none;
@@ -170,7 +178,7 @@ body {
 .titulos {
   font-size: 1.5rem;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
   color: #141850; }
 
 .wallpaper {

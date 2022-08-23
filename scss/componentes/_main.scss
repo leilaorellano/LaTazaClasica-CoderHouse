@@ -6,6 +6,11 @@
     justify-items: center;
     align-items: center;
     padding-bottom: 3rem;
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 8px;
+    } 
     @media screen and (max-width: 768px){
         display: grid;
         grid-template-columns:1fr;
@@ -24,12 +29,6 @@
     }
 }
 
-  
-/* fuente de los parrafos de cada imagen de prod o kits*/
-.box p{
-    font-size: 1.2rem;
-} 
-
 /* flex de los kits */
 .kits-flex{
     @extend %disposicion;
@@ -38,6 +37,8 @@
     padding: 0rem 1rem 0rem 3rem;
     p{
         font-size: 1.2rem;
+        text-align: center;
+        padding: 8px;
     }
 }
 
@@ -47,10 +48,13 @@
     display: flex;
     list-style-type: none;
     justify-content:space-around;
-    margin: 0;
     padding: 1.2rem;
     p{
+        margin-left: 8px;
         font-size: 1.2rem;
+    }
+    img{
+         max-width: 150px;
     }
     @media screen and (max-width:991px){
         display: flex;
@@ -60,7 +64,8 @@
         align-items: center;
         flex-direction: column;
         p{
-            font-size: 1rem;
+            margin-left: 8px;
+            font-size: 1.2rem;
         }
     }
 }
